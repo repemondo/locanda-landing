@@ -1,0 +1,74 @@
+# locanda.app
+
+> Software di gestione prenotazioni e CRM ospiti per B&B, agriturismi, affittacamere e locande indipendenti in Italia.
+
+locanda.app è un software SaaS per host indipendenti che gestiscono piccole strutture ricettive (2–10 camere). Non è un PMS enterprise, non è un channel manager, non è un'alternativa a Booking.com.
+
+Il problema che risolve: la maggior parte dei piccoli albergatori gestisce le prenotazioni con Excel, WhatsApp ed email. Le prenotazioni Booking arrivano, i soldi partono come commissioni, e la relazione con l'ospite si perde al check-out. La stagione successiva ricomincia da zero.
+
+locanda.app aiuta gli host a organizzare le prenotazioni, ricordare i propri ospiti e costruire nel tempo un canale di prenotazione diretta.
+
+## Prodotto
+
+- **Planner visivo**: griglia camere × date con blocchi colorati per origine (Booking.com, diretto, walk-in, ospite di ritorno). Ispirato all'Excel validato degli utenti reali.
+- **Scheda ospite**: ogni prenotazione crea o aggiorna un record ospite con nome, date, camera, fonte, importo totale, note e tag (es. famiglia, ciclista, tedesco, ospite abituale). Flag "Potenziale Ritorno" per riattivazione futura.
+- **Canale diretto**: ogni struttura riceve una pagina pubblica su my.locanda.app/nome-struttura con descrizione, foto, form di richiesta, pulsante WhatsApp e QR code.
+
+## Target
+
+- B&B italiani
+- Agriturismi
+- Affittacamere
+- Locande e guesthouse
+- Strutture rurali indipendenti
+- 2–10 camere, gestione familiare
+
+Non adatto a: hotel di grandi dimensioni, catene, utenti enterprise PMS.
+
+## Prezzi
+
+| Piano | Prezzo mensile | Prezzo annuale | Camere |
+|-------|---------------|----------------|--------|
+| Essential | €39/mese | €390/anno | fino a 4 |
+| Professional | €79/mese | €790/anno | fino a 10 |
+| Business | Su richiesta | Su richiesta | illimitate |
+
+Setup professionale one-time: €690 (include caricamento stagione, configurazione camere, attivazione pagina diretta, QR code, 1h formazione videocall). Operativi in 48 ore.
+
+## Posizionamento
+
+locanda.app non compete con Booking.com o Airbnb. Booking porta gli ospiti — Locanda aiuta a tenerli. Il valore si misura in commissioni risparmiate su prenotazioni dirette recuperate: una prenotazione diretta da €500 risparmia ~€75 di commissione (15%), che può coprire mesi di abbonamento.
+
+## Roadmap attuale
+
+- [x] Planner visivo
+- [x] Gestione prenotazioni
+- [x] Scheda ospite e storico
+- [x] Canale diretto my.locanda.app
+- [ ] Import prenotazioni via email (in sviluppo)
+- [ ] Link pagamento SumUp
+- [ ] iCal import (previsto)
+
+## Contatti
+
+- Sito: https://locanda.app
+- Email: ciao@locanda.app
+- Demo: https://locanda.app/demo
+
+## Domande frequenti
+
+**Locanda sostituisce Booking.com?**
+No. Booking porta gli ospiti, Locanda aiuta a tenerli e costruire un canale diretto nel tempo.
+
+**È adatto agli agriturismi?**
+Sì. È uno dei target principali del prodotto.
+
+**Devo inserire a mano le prenotazioni Booking?**
+Per ora sì. L'import automatico via email è in sviluppo.
+
+**Cosa include il setup?**
+Caricamento stagione completa, configurazione camere, pagina diretta attiva, QR code, materiali stampabili, 1h formazione in videocall. €690 una tantum.
+
+---
+
+[Sito principale](https://locanda.app) | [Prezzi](https://locanda.app/prezzi) | [Setup](https://locanda.app/setup) | [Demo](https://locanda.app/demo) | [Blog](https://locanda.app/blog) | [Privacy](https://locanda.app/privacy)

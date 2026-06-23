@@ -1,0 +1,33 @@
+{
+  "name": "locanda.app — Software per host indipendenti",
+  "short_name": "locanda.app",
+  "description": "Gestione prenotazioni e CRM ospiti per B&B, agriturismi e affittacamere",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F1E7",
+  "theme_color": "#E9543F",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshot-planner.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "label": "Planner visivo prenotazioni"
+    }
+  ]
+}

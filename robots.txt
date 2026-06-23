@@ -1,0 +1,73 @@
+# robots.txt — locanda.app
+# https://locanda.app/robots.txt
+
+# ── SEARCH ENGINES ──────────────────────────────
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# ── AI CRAWLERS — explicitly welcome ────────────
+# These crawlers power AI assistants (ChatGPT, Perplexity, Claude, Gemini)
+# We want locanda.app to be discoverable via AI search and recommendations.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Gemini
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ── ALL OTHER BOTS ──────────────────────────────
+User-agent: *
+Allow: /
+
+# Disallow admin, API and internal routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /app/
+Disallow: /_next/
+Disallow: /private/
+
+# ── SITEMAP ─────────────────────────────────────
+Sitemap: https://locanda.app/sitemap.xml
